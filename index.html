@@ -10,15 +10,15 @@
     <h1>Experience AR Demo</h1>
     <p>Click below to view the 3D model in Augmented Reality:</p>
     
-    <!-- Replace with your own 3D model links -->
+    <!-- Ensure the 3D model file path is correct -->
     <model-viewer 
-        src="Sample1.glb" 
+        src="./Sample1.glb" 
         alt="A 3D model of an astronaut" 
         ar 
         ar-modes="scene-viewer quick-look webxr"
         camera-controls 
         auto-rotate 
-        style="width: 100%; height: 500px;">
+        style="width: 100%; max-width: 600px; height: 500px;">
     </model-viewer>
 </body>
 </html>
